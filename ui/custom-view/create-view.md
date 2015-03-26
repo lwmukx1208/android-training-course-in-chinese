@@ -15,7 +15,7 @@ Android的framework提供了许多基类与XML标签用来帮助你创建一个�
 ## Subclass a View
 Android framework里面定义的view类都继承自View。你自定义的view也可以直接继承View，或者你可以通过继承既有的一个子类(例如Button)来节约一点时间。
 
-为了让Android Developer Tools能够识别你的view，你必须至少提供一个constructor，它包含一个Contenx与一个AttributeSet对象作为参数。这个constructor允许layout editor创建并编辑你的view的实例。
+为了让Android Developer Tools能够识别你的view，你必须至少提供一个constructor，它包含一个Context与一个AttributeSet对象作为参数。这个constructor允许layout editor创建并编辑你的view的实例。
 
 ```java
 class PieChart extends View {
